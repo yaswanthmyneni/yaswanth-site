@@ -87,7 +87,8 @@ hr {
 }
 
 .navigation .link-active {
-    font-weight: 700;
+    font-size: larger;
+    font-weight: bold;
 }
 
 /* header */
@@ -129,7 +130,7 @@ hr {
     padding: 2rem 0.5rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1.5rem;
+    border-radius: 0.5rem;
 }
 
 .footer .link {
