@@ -114,6 +114,7 @@ h2 {
 .navigation .link {
     color: white;
     padding: 0rem 0.8rem;
+    text-decoration: none;
 }
 
 .navigation .link-active {
