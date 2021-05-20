@@ -1,6 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 /* Blog Styling */
 
 body{
+    font-family: 'Montserrat', sans-serif;
     background-color: lavender;
     margin: 0%;
 }
@@ -85,22 +90,27 @@ h2 {
 
 .navigation {
     background-color: #10B981;
-    color: white;
     padding: 0.5rem 0.5rem;
     border-radius: 0.5rem;
 }
 
 .navigation .nav-pills {
     text-align: right;
+    text-decoration: none;
+    padding: 1rem;
 }
 
 .navigation .nav-brand {
+    color: white;
     font-weight: 700;
     font-size: 1.2rem;
+    margin: 0px;
+    padding-top: 10px;
 }
 
 .navigation .link {
     color: white;
+    padding: 0rem 0.8rem;
 }
 
 .navigation .link-active {
