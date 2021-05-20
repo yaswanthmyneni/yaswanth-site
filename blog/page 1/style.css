@@ -1,0 +1,131 @@
+body {
+    font-size: 20px;
+}
+
+
+
+main {
+    display: inline-block;
+    width: 70%;
+}
+article {
+    width: 82%;
+    display: inline-block;
+}
+
+#article-img{
+    width: 800px;
+    height: 400px;
+}
+
+#author-name {
+    display: inline-block;
+    width: 17%;
+    vertical-align: top;
+}
+
+#author-name p{
+    margin: 0px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 0%;
+}
+
+p, h1 {
+    font-family: sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.cuesive {
+    font-family: cursive;
+}
+
+#blog-title:hover {
+    color: orangered;
+}
+
+/* Aside */
+aside {
+    display: inline-block;
+    width: 21%;
+    margin-left: 8%;
+    vertical-align: top;
+}
+
+aside li {
+    color: orangered;
+}
+.widget {
+    border-top: 4px solid black;
+}
+
+.widget input {
+    display: block;
+    background-color: #F7F7F7;
+    margin-bottom: 12px;
+    padding: 4px;
+    font-size: 1.2rem;
+}
+.widget label span {
+    color: red;
+}
+button[type="submit"] {
+    font-size: 1.2rem;
+    background-color: rgb(3, 182, 3);
+    color: black;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.widget-title {
+    font-size: 1.8rem;
+}
+
+/* Navigation */
+
+.navigation {
+    background-color: #10B981;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.navigation .nav-brand {
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.navigation .link {
+    color: white;
+    padding: 0rem 0.8rem;
+}
+
+.navigation .link-active {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.container{
+    padding: 0 1rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
