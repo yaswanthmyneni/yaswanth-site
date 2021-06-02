@@ -1,12 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+:root {
+    --primary-color: #10B981;
+    --secondary-color: #4B5563;
+    --grey-color: #E5E7EB;
+}
 
 /* Blog Styling */
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: lavender;
+    background-color: white;
     margin: 0%;
 }
 
@@ -24,8 +29,23 @@ a {
     text-decoration: none;
     color: cornflowerblue;
 }
-h1 {
+
+/* Header */
+
+.hero {
+    padding: 1.5rem;
     text-align: center;
+    margin: 0px;
+}
+
+.hero .hero-heading{
+    color: var(--secondary-color);
+    padding-top: 0.5rem;
+    margin: 0px;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
 }
 
 h2 {
