@@ -17,6 +17,9 @@ hr {
 
 .container{
     padding: 0 1rem;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
 }
 
 .container-center {
@@ -35,10 +38,9 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:whitesmoke;
-    width: 10%;
+    width: initial;
     padding: 0.5rem 1rem;
     display: inline-block;
-    word-wrap: break-word;
 }
 
 .link-secondary {
@@ -46,9 +48,8 @@ hr {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-    width: 10%;
+    width: initial;
     padding: 0.5rem 1rem;
-    word-wrap: break-word;
 }
 
 /* list */

@@ -71,18 +71,18 @@ a {
     margin: 0%;
 }
 
-.blog-div div {
-    margin: 0%;
-    width: 13%;
+.blog-div a p {
+    width: initial;
     padding: 0.7rem;
-    border-radius: 1.3rem;
+    border-radius: 0.4rem;
     background-color: var(--primary-color);
-}
-
-.blog-div div a p{
-    padding: 0%;
     text-align: center;
     color: white;
+    display: inline-block;
+}
+
+.blog-div a p {
+    margin-top: 1rem;
 }
 
 h2 {
