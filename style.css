@@ -20,27 +20,33 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 70%;
     margin: auto;
+    text-align: justify;
 }
 
 /* links */
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:whitesmoke;
+    width: 10%;
+    padding: 0.5rem 1rem;
+    display: inline-block;
 }
 
 .link-secondary {
+    display: inline-block;
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    width: 12%;
+    padding: 0.5rem 1rem;
 }
 
 /* list */
@@ -121,6 +127,30 @@ hr {
 
 .ow {
     background-color: var(--grey-color);
+}
+
+/* project */
+
+.project-list:nth-child(2n+1) {
+    border-radius: 1rem;
+    background-color: var(--grey-color);
+}
+
+.project-list h2 {
+    padding-top: 1rem;
+}
+
+.project-list a {
+    margin-right: 1rem;
+}
+
+.project-list a p {
+    margin: 0%;
+    margin-bottom: 1rem;
+}
+
+.margin-left {
+    margin-left: 7rem;
 }
 
 /* Footer */
