@@ -16,7 +16,7 @@ body{
 }
 
 .center {
-    width: 50%;
+    width: 70%;
     margin: auto;
     text-align: justify;
 }
@@ -48,15 +48,52 @@ a {
     color: var(--primary-color);
 }
 
+/* Blog div */
+
+.blog-div {
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.bg-for-blog-div {
+    border-radius: 1rem;
+}
+
+.bg-for-blog-div:nth-child(2n) {
+    background-color: #F3F4F6;
+}
+
+.blog-div  p {
+    padding: 10px;
+    padding-inline-start: 0%;
+    margin: 0%;
+}
+
+.blog-div div {
+    margin: 0%;
+    width: 13%;
+    padding: 0.7rem;
+    border-radius: 1.3rem;
+    background-color: var(--primary-color);
+}
+
+.blog-div div a p{
+    padding: 0%;
+    text-align: center;
+    color: white;
+}
+
 h2 {
-    font-size: 2rem;
-    font-weight: 400;
+    font-weight: bolder;
     margin: 0%;
 }
 
 #subscribe {
-    width: 600px;
-    height: 240px;
+    width: 37.5rem;
+    height: 15rem;
+    margin: auto;
     background-color: rgb(11, 14, 14);
     display: flex;
     justify-content: center;
@@ -65,8 +102,8 @@ h2 {
 }
 
 #subscribe-bar {
-    width: 330px;
-    height: 58px;
+    width: 20.7rem;
+    height: 3.7rem;
     margin: 0%;
     background-color: #EE7839;
     border-radius: 6px;
@@ -93,12 +130,12 @@ h2 {
 .orange {
     background-color: #EE7839;
     color: whitesmoke;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .lightslategray {
     background-color: #1C1D1F;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 #footer-links a {
@@ -128,7 +165,7 @@ h2 {
     font-weight: 700;
     font-size: 1.2rem;
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 .navigation .link {
@@ -154,4 +191,29 @@ h2 {
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+
+/* Footer For Links*/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-size: larger;
+    font-weight: bold;
+}
+
 
