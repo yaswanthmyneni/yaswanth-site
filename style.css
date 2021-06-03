@@ -20,7 +20,7 @@ hr {
 }
 
 .container-center {
-    max-width: 50%;
+    max-width: 90%;
     margin: auto;
     text-align: center;
 }
@@ -38,6 +38,7 @@ hr {
     width: 10%;
     padding: 0.5rem 1rem;
     display: inline-block;
+    word-wrap: break-word;
 }
 
 .link-secondary {
@@ -45,8 +46,9 @@ hr {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-    width: 12%;
+    width: 10%;
     padding: 0.5rem 1rem;
+    word-wrap: break-word;
 }
 
 /* list */
