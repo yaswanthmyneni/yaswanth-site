@@ -21,10 +21,6 @@ body{
     text-align: justify;
 }
 
-div {
-    margin: 2rem;
-}
-
 a {
     text-decoration: none;
     color: cornflowerblue;
@@ -126,6 +122,7 @@ h2 {
 }
 
 @media screen and (max-width: 1210px) {
+    
     #subscribe-bar {
         width: 80%;
     }
@@ -135,8 +132,11 @@ h2 {
 }
 
 @media screen and (max-width: 830px) {
+    #subscribe {
+        width: 100%;
+    }
     #subscribe-bar {
-        width: 95%;
+        width: 65%;
     }
     #input-text {
         width: 18vw;
@@ -144,14 +144,20 @@ h2 {
 }
 
 @media screen and (max-width: 550px) {
+    #subscribe-bar {
+        width: 95%;
+    }
     #input-text {
-        width: 36vw;
+        width: 25vw;
     }
 }
 
 @media screen and (max-width: 450px) {
     #input-text {
-        width: 31vw;
+        width: 40vw;
+    }
+    .center {
+        width: 90%;
     }
 }
 
@@ -226,6 +232,15 @@ h2 {
     .navigation .link {
         padding: 0rem 0.2rem;
     }
+    .list-item-inline{
+        display: inline-block;
+        padding: 3%;
+    }
+    #social-links {
+        text-align: start;
+        width: 30%;
+        margin: auto;
+    }
 }
 
 
@@ -233,7 +248,7 @@ h2 {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem;
     text-align: center;
     color: white;
     border-radius: 0.5rem;
