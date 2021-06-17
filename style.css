@@ -16,20 +16,19 @@ hr {
 }
 
 .container{
-    padding: 0 1rem;
+    padding: 0rem;
 }
 
 .container-center {
-    max-width: 70%;
     margin: auto;
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .container-center {
         max-width: 90%;
     } 
-}
+} */
 
 /* links */
 
@@ -144,8 +143,8 @@ hr {
 
 /* project */
 
+
 .project-list:nth-child(2n+1) {
-    border-radius: 1rem;
     background-color: var(--grey-color);
 }
 
@@ -153,19 +152,12 @@ hr {
     padding-top: 1rem;
 }
 
-.project-list a {
-    margin-right: 1rem;
-}
-
 .project-list a p {
     margin: 0%;
     margin-bottom: 1rem;
 }
 
-.margin-left {
-    margin-left: 2%;
-    margin-right: 2%;
-}
+
 
 /* Footer */
 
